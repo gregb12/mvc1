@@ -2,10 +2,10 @@
 
 namespace WebApplication5.Models
 {
-    public class CustomerContext:DbContext
+    public class AZURE_SQL_CONNECTIONSTRING:DbContext
     {
 
-        public CustomerContext(DbContextOptions<CustomerContext> options) : base(options) { }
+        public CAZURE_SQL_CONNECTIONSTRING(DbContextOptions<AZURE_SQL_CONNECTIONSTRING> options) : base(options) { }
         public DbSet<Customer> Customer { get; set; } = null!;
     }
 }
